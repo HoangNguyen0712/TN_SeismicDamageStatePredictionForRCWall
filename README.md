@@ -1,7 +1,7 @@
 
 # Software introduction
 
-This code package is develeloped for graphical user interface (GUI) to predict the damage states of reinforced concrete (RC) wall structures. 
+This code package is develeloped for graphical user interface (GUI) to predict the seismic damage state of reinforced concrete (RC) wall structures. 
 
 # Developers
 
@@ -11,7 +11,7 @@ Institution: Ulsan National Institute of Science and Technology (UNIST) and Univ
 
 # Reference
 
-DEVELOPMENT OF SURROGATE MODELS TO PREDICT SEISMIC RESPONSE OF R/C WALL STRUCTURE: AN APPLICATION OF DEEP NEURAL NETWORKS (In preparation).
+INVESTIGATING THE CAPABILITY OF MACHINE LEARNING TECHNIQUES TO PREDICT THE SEISMIC DAMAGE STATE OF RC WALL STRUCTURES (In preparation).
 
 # Required software and libraries
 
@@ -26,4 +26,3 @@ Step 2: Run the python file GUI_RCWallStructures.py to open the GUI.
 Step 3: Fill out all the required input variables in the GUI.
 
 Step 4: Press "Predict" button to obtain the damage state of RC wall structure.
-
