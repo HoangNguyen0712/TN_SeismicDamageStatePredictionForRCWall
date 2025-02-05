@@ -13,8 +13,8 @@ from pickle import load
 sg.theme('Dark Blue 3')	# Add a touch of color
 # All the stuff inside your window.
 layout = [  [sg.Text('Developed by Hoang Dac Nguyen')],
-            [sg.Text('UNIST, South Korea')],
-            [sg.Text('Email: nguyenhoangkt712@unist.ac.kr')],
+            [sg.Text('University of Alberta, Canada')],
+            [sg.Text('Email: dachoang@ualberta.ca')],
             [sg.Text('Seismic damage-state prediction of R/C structures using machine learning')],
             [sg.Text('Hoang D. Nguyen, Nhan D. Dao, and Myoungsu Shin')],
               
@@ -30,7 +30,7 @@ layout = [  [sg.Text('Developed by Hoang Dac Nguyen')],
             [sg.Text('T2 (s)',size=(15, 1)), sg.InputText(key='-f9-',size=(30, 1))],
             [sg.Text('T3 (s)',size=(15, 1)),sg.InputText(key='-f10-',size=(30, 1))]],title='Input variables')],
             [sg.Frame(layout=[   
-            [sg.Text('Damage state (Green, Yellow, or Red)',size=(28, 1))], 
+            [sg.Text('Damage state (DS1, DS2, or DS3)',size=(28, 1))], 
             [sg.Text('XGBoost',size=(15, 1)), sg.InputText(key='-OP1-',size=(30, 1))],
             [sg.Text('CatBoost',size=(15, 1)),sg.InputText(key='-OP2-',size=(30, 1))]],title='Output')],
             [sg.Button('Predict'),sg.Button('Cancel')] 
@@ -66,17 +66,17 @@ while True:
             y_pred_disp = loaded_model.predict(x_test)
             y_pred_disp_CGB = loaded_model_CGB.predict(x_test)
             if y_pred_disp == 1:
-                window['-OP1-'].update(("GREEN"))
+                window['-OP1-'].update(("DS1"))
             elif y_pred_disp == 2:
-                window['-OP1-'].update(("YELLOW"))
+                window['-OP1-'].update(("DS2"))
             else:
-                window['-OP1-'].update(("RED"))   
+                window['-OP1-'].update(("DS3"))   
                     
             if y_pred_disp_CGB == 1:
-                window['-OP2-'].update(("GREEN"))
+                window['-OP2-'].update(("DS1"))
             elif y_pred_disp_CGB == 2:
-                window['-OP2-'].update(("YELLOW"))
+                window['-OP2-'].update(("DS2"))
             else:
-                window['-OP2-'].update(("RED"))   
+                window['-OP2-'].update(("DS3"))   
 
 window.close()
