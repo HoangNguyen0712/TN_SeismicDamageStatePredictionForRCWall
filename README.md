@@ -7,7 +7,7 @@ This code package is develeloped for graphical user interface (GUI) to predict t
 
 Developed by Hoang D. Nguyen (dachoang@ualberta.ca), Nhan D. Dao, and Myoungsu Shin. 
 
-Institution: University of Alberta, Ulsan National Institute of Science and Technology (UNIST), and University of Architecture Ho Chi Minh City.
+Institution: University of Alberta, University of Architecture Ho Chi Minh City, and Ulsan National Institute of Science and Technology (UNIST).
 
 # Reference
 
