@@ -15,7 +15,7 @@ CAPABILITY OF MACHINE LEARNING TO PREDICT SEISMIC DAMAGE STATES OF REINFORCED CO
 
 # Required software and libraries
 
-Python 3.8 with Numpy version '1.23.5', PySimpleGUI version '4.60.5', and pickle '4.0'.
+Python 3.8 with xgboost version '1.4.2', catboost version '1.2.7', Numpy version '1.23.5', PySimpleGUI version '4.60.5', and pickle '4.0'.
 
 # Steps to use the package
 
