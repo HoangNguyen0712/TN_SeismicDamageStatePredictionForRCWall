@@ -5,9 +5,9 @@ This code package is develeloped for graphical user interface (GUI) to predict t
 
 # Developers
 
-Developed by Hoang D. Nguyen (nguyenhoangkt712@unist.ac.kr), Nhan D. Dao, and Myoungsu Shin. 
+Developed by Hoang D. Nguyen (dachoang@ualberta.ca), Nhan D. Dao, and Myoungsu Shin. 
 
-Institution: Ulsan National Institute of Science and Technology (UNIST) and University of Architecture Ho Chi Minh City.
+Institution: University of Alberta, Ulsan National Institute of Science and Technology (UNIST), and University of Architecture Ho Chi Minh City.
 
 # Reference
 
